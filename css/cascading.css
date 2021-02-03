@@ -1,0 +1,27 @@
+/* Cascading 우선 순위 */
+li {
+  padding: 10px;
+  margin: 10px;
+  width: 120px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  background: #004fff;
+}
+
+/*  같은 tag를 적용 했을 경우 마지막 적은 것이 적용됨 */
+li {
+  background: black;
+}
+
+/* inline style(1) > id(2) > class(3) > tag(4) 보다 우선 순위 */
+#id_selector {
+  background: red;
+}
+
+.class_selector {
+  background: green;
+}

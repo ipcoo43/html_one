@@ -1,0 +1,27 @@
+/* display 속성으로 어떤 방향으로 어떻게 보여질 */
+.card span {
+  color: white;
+  background-color: #004fff;
+}
+
+span {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
+
+span.block {
+  display: block;
+}
+
+span.inline {
+  display: inline;
+}
+
+span.inline-block {
+  display: inline-block;
+}
+
+span.none {
+  display: none;
+}
